@@ -281,12 +281,12 @@ header {
     
     .section__subtitle--intro {
         align-self: start;
-        grid-column: -1 / 2;
+        grid-column: -1 / 1;
         grid-row: 2;
         text-align: right;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 1.5em);
+        width: calc(100% + 3em);
     }
 }
 
@@ -308,22 +308,13 @@ header {
     position: relative;
 }
 
-.section__title--services::after {
-    content: '';
-    display: block;
-    width: 2em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background: var(--clr-light);
-    opacity: 0.25;
-}
 
 .services {
     margin-bottom: 4em;
 }
 
 .service {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -333,10 +324,6 @@ header {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
-    }
-    
-    .service + .service {
-        margin-left: 2em;
     }
 }
 
@@ -394,7 +381,7 @@ header {
 
 .portfolio {
     position: relative;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .portfolio__item {
