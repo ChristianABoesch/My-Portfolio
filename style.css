@@ -65,7 +65,7 @@ img {
 strong { font-weight: var(--fw-bold) }
 
 :focus {
-    outline: 3px solid var(--clr-hammyboy);
+    outline: 3px solid var(--clr-black);
     outline-offset: 3px;
 }
 
@@ -226,7 +226,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-hammyboy);
+    background: var(--clr-black);
     width: 2em;
     height: 3px;
     border-radius: 1em;
